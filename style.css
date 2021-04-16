@@ -35,7 +35,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 20vh;
+  transform: translateY(250%);
 }
 
 #logo {
@@ -44,7 +44,49 @@ nav {
   font-style: 2rem;
 }
 
-.info-container {
+.main-container {
   height: 70%;
   background-color: red;
+  display: flex;
 }
+
+.info {
+  margin: auto;
+  padding: 0 20rem 0 10rem;
+}
+
+.info h3 {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+.info p {
+  padding-bottom: 1rem;
+}
+
+.info-text {
+}
+
+.intro {
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*make intro appear*/
+  z-index: -1;
+}
+
+.img {
+}
+
+.intro-text {
+  color: rgb(226, 230, 235);
+  font-family: "Heebo", sans-serif;
+  font-size: 3rem;
+}
+
