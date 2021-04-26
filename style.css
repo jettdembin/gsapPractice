@@ -17,12 +17,12 @@ main {
 }
 
 nav {
-  width: 90%;
   min-height: 10vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0rem 10rem;
+  margin: auto auto;
 }
 
 .nav-links {
@@ -40,6 +40,7 @@ nav {
   align-items: center;
   transform: translateY(250%);
   font-size: 2rem;
+  font-family: "Lobster", cursive;
 }
 
 #logo {
@@ -167,3 +168,4 @@ button {
   height: 100%;
   transform: translateY(100%);
 }
+
