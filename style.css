@@ -116,12 +116,17 @@ img {
 }
 
 .info-text span {
-  transform: translateY(200%);
+  transform: translateX(-100%);
   display: inline-block;
 }
 
 button {
-  border: none;
+  border-color: black;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-family: "Lobster", cursive;
+  font-weight: lighter;
+  font-style: 2rem;
 }
 
 .intro-text {
@@ -161,11 +166,12 @@ button {
 
 .slider {
   background: rgb(97, 105, 109);
-  position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
   transform: translateY(100%);
+  z-index: 10;
 }
 
